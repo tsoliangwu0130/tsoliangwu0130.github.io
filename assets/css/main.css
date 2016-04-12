@@ -3724,11 +3724,10 @@
 
 		#footer .copyright {
 			color: rgba(255, 255, 255, 0.5);
-			font-size: 0.8em;
-			letter-spacing: 0.225em;
+			font-size: 0.65em;
+			letter-spacing: 0.15em;
 			list-style: none;
 			padding: 0;
-			text-transform: uppercase;
 		}
 
 			#footer .copyright li {
