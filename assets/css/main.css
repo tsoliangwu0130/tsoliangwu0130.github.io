@@ -2531,15 +2531,18 @@
 		}
 
 		.spotlight:nth-child(1) {
-			background-color: rgba(255, 255, 255, 0.075);
+			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/sagi01-small.jpg");
+			background-position: 300px 55%;
 		}
 
 		.spotlight:nth-child(2) {
-			background-color: rgba(255, 255, 255, 0.5);
+			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/road.jpg");
+			background-position: 50%;
 		}
 
 		.spotlight:nth-child(3) {
-			background-color: rgba(255, 255, 255, 0.225);
+			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/textbook-calculator-small.jpg");
+			background-position: 50%;
 		}
 
 		.spotlight:nth-child(4) {
