@@ -5,3 +5,9 @@
 	margin       : 0 auto 2em;
 	border-radius: 100%;
 }
+
+/* Article Paragraph */
+.wrapper .inner p {
+	text-align  : justify;
+	text-justify:inter-ideograph;
+}
