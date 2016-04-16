@@ -38,3 +38,7 @@ table {
 		margin: 0;
 	}
 
+#download-button {
+	margin: 0 auto;
+	text-align: center;
+}
