@@ -20,19 +20,21 @@ table {
 			background-color: transparent;
 		}
 
-	table .td-title{
+	table td.td-title{
 		font-weight: bold;
 		text-align : left;
 		font-size  : 1.2em;
 	}
 	
-	table .td-content{
+	table td.td-content{
 		word-wrap: break-word;
 	}
 
-	table .td-date{
+	table td.td-date{
 		text-align: right;
-		font-style: italic;
 	}
 
+	table tr td ul {
+		margin: 0;
+	}
 
