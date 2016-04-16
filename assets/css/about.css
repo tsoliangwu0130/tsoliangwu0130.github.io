@@ -1,3 +1,8 @@
+/* Inner */
+.wrapper .inner {
+	width: 55%;
+}
+
 /* Profile Photo */
 .wrapper .inner .image img {
 	width        : 30%;
@@ -8,7 +13,9 @@
 
 /* Article Paragraph */
 .wrapper .inner p {
+	font-size   : 0.9em;
 	text-align  : justify;
-	text-justify:inter-ideograph;
+	text-justify: inter-ideograph;
 	word-wrap   : break-word; 
+	/*word-break  : break-all;*/
 }
