@@ -1,8 +1,14 @@
+[Tso-Liang Wu](http://tsoliangwu0130.github.io)
+===============================================
+
 Resources
 ---------
 
 ### Original Theme
-1. [Spectral](http://html5up.net/spectral) from [HTML5 UP!](http://html5up.net/)</br>
+* [Spectral](http://html5up.net/spectral) from [HTML5 UP!](http://html5up.net/)</br>
 
 ### Template Technique
-1. [Jekyll](https://jekyllrb.com/)</br>
+* [Jekyll](https://github.com/jekyll/jekyll)</br>
+
+### License
+* [LICENSE](https://github.com/tsoliangwu0130/tsoliangwu0130.github.io/blob/master/LICENSE.txt)</br>
