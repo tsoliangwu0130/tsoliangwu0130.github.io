@@ -11,8 +11,9 @@ Resources
 * [Visual Hunt](https://visualhunt.com/)</br>
 * [Zerospace](http://zerospace.asika.tw/l)</br>
 
-### Template Technique
+### Technique
 * [Jekyll](https://github.com/jekyll/jekyll)</br>
+* [Hyphenator](https://github.com/mnater/Hyphenator)</br>
 
 ### Icons
 * [Font Awesome Icons](http://fortawesome.github.io/Font-Awesome/icons/)</br>

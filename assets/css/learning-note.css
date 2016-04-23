@@ -6,6 +6,10 @@ a:hover {
     color: orange;
 }
 
+ul {
+    margin-bottom: 1em;
+}
+
 .wrapper {
     padding-top: 0;
 }
@@ -38,7 +42,8 @@ ul.nav li a:hover {
 }
 
 h3.title {
-    border-bottom: 1px solid;
+    margin-top    : 2em;
+    border-bottom : 1px solid;
     padding-bottom: 0.5em;  
 }
 
@@ -49,5 +54,6 @@ h3.title {
 ul.item li {
     list-style-type: disc;
     font-size      : 0.8em;
-    margin         :0 0 0.5em 1em;
+    margin-left    : 1em;
 }
+
