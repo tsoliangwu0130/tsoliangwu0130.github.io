@@ -52,8 +52,12 @@ h3.title {
 }
 
 ul.item li {
-    list-style-type: disc;
+    list-style-type: none;
     font-size      : 0.8em;
-    margin-left    : 1em;
+}
+
+ul.item li:before {
+  content      : "-";
+  padding-right: 1em;
 }
 
