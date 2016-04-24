@@ -1,59 +1,64 @@
+/* Hyperlink */
 a {
-    border-bottom: 0;
+	border-bottom: 0;
 }
 
 a:hover {
-    color: orange;
+	color: orange;
 }
 
 ul {
-    margin-bottom: 1em;
+	margin-bottom: 1em;
 }
 
-.wrapper {
-    padding-top: 0;
-}
-
+/* Navigator */
 ul.nav {
-    list-style-type : none;
-    margin          : 0 0 3em 0;
-    padding         : 0;
-    overflow        : hidden;
-    background-color: rgba(0, 0, 0, 0.4);
-    text-align      : center;
+	list-style-type : none;
+	margin          : 0 0 3em 0;
+	padding         : 0;
+	overflow        : hidden;
+	background-color: rgba(0, 0, 0, 0.4);
+	text-align      : center;
 }
 
-    ul.nav li {
-        padding: 0;
-        display:inline;
-    }
+	ul.nav li {
+		padding: 0;
+		display:inline;
+	}
 
-        ul.nav li a {
-            color          : white;
-            text-align     : center;
-            padding        : 14px 16px;
-            text-decoration: none;
-            border-bottom  : none;
-            display        : inline-block;
-        }
+		ul.nav li a {
+			color          : white;
+			text-align     : center;
+			padding        : 14px 16px;
+			text-decoration: none;
+			border-bottom  : none;
+			display        : inline-block;
+		}
 
-ul.nav li a:hover {
-    background-color: #333333;
-}
+		ul.nav li a:hover {
+			background-color: #333333;
+		}
 
-h3.title {
-    margin-top    : 2em;
-    border-bottom : 1px solid;
-    padding-bottom: 0.5em; 
+/* Wrapper */
+.wrapper {
+	padding-top: 0;
 }
 
 .inner ul li {
-    list-style-type: none;
+	list-style-type: none;
 }
 
+/* Title */
+h3.title {
+	margin-top    : 2em;
+	border-bottom : 1px solid;
+	padding-bottom: 0.5em; 
+}
+
+/* Item */
 ul.item li {
-    list-style-type: none;
-    font-size      : 0.8em;
+	list-style-type: none;
+	font-size      : 0.8em;
 }
 
 ul.item li:before {
