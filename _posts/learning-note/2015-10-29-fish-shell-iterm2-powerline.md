@@ -1,6 +1,6 @@
 ---
 layout: article
-title: fish shell + iTerm2 + Powerline
+title: Fish Shell + iTerm2 + Powerline
 category: learning-note
 ---
 
