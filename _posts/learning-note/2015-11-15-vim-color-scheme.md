@@ -7,7 +7,7 @@ css: <link rel="stylesheet" href="/assets/css/learning-note.css"/>
 
 #### Prerequisite
 
-雖然我大部分的時間是使用 [Sublime Text 3](https://www.sublimetext.com/3) 作為我的文字編譯工具，但在操作 terminal 終端機時仍然不可避免使用文字介面下的文書編輯器。在眾多文書編輯器中，我個人較常使用的是 [Vim](https://en.wikipedia.org/wiki/Vim_(text_editor) 。這篇筆記將簡單介紹如何安裝 color scheme 在 Vim 中，並顯示文件行號。
+雖然我大部分的時間是使用 [Sublime Text 3](https://www.sublimetext.com/3) 作為我的文字編譯工具，但在操作 terminal 終端機時仍然不可避免使用文字介面下的文書編輯器。在眾多文書編輯器中，我個人較常使用的是 [Vim](https://en.wikipedia.org/wiki/Vim_(text_editor)) 。這篇筆記將簡單介紹如何安裝 color scheme 在 Vim 中，並顯示文件行號。
 
 #### Note
 
