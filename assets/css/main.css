@@ -1455,6 +1455,7 @@
 	}
 
 		a:hover {
+			color              : orange;
 			border-bottom-color: transparent;
 		}
 
