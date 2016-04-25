@@ -36,7 +36,7 @@ ul.nav {
 		}
 
 		ul.nav li a:hover {
-			background-color: #333333;
+			background-color: rgba(105, 105, 105, 0.3);
 		}
 
 /* Wrapper */
