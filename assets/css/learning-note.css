@@ -114,6 +114,10 @@ ul.item li:before {
 	border-bottom: 1px solid;
 }
 
+.article-inner strong {
+	border-bottom: 1px solid;
+}
+
 .article-inner ul {
 	font-size: 0.9em;
 }
