@@ -66,3 +66,18 @@ ul.item li:before {
   padding-right: 1em;
 }
 
+/* Article */
+.article-inner {
+	padding-top   : 2em;
+	padding-left  : auto;
+	padding-right : auto;
+	padding-bottom: 2em;
+}
+
+.article-inner h4 {
+	display      : inline-block;
+	margin-bottom: 2em;
+	border-bottom: 1px solid;
+}
+
+
