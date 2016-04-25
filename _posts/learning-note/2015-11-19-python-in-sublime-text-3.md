@@ -12,7 +12,6 @@ css: <link rel="stylesheet" href="/assets/css/learning-note.css"/>
 
 SublimeLinter 一直以來都是 Package Control 中排名中居於第一位的程式碼語法檢查器。SublimeLinter 除了可以即時幫多種語言即時偵錯，也可以有效提醒使用者一些好的編碼習慣。而 SublimeCodeIntel 則提供了相當完善的語法提示。在開發程式的過程中，SublimeCodeIntel 會在使用者輸入關鍵字時給予適當提示以減少編碼時錯誤發生的機率。這篇筆記會使用 [Package Control](https://packagecontrol.io/installation) 來進行插件安裝，若尚未安裝 Package Control 請先點擊連結安裝。
 
-
 #### Note
 
 Open Terminal (or [iTerm2](https://www.iterm2.com/)), type the `$ sudo pip install flake8` and enter your admin password (In order to check Python syntax, we need to install [flake8](https://pypi.python.org/pypi/flake8), which is a modular source code checker on Mac). 
