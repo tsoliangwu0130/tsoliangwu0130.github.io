@@ -101,13 +101,13 @@ ul.item li:before {
 
 .article-inner code {
 	font-size: 1em;
-	margin: 0;
+	margin   : 0;
 }
 
 .article-inner img {
-	max-width   :70%;
-	max-height  :70%;
-	border: 1px solid #333333;
+	max-width : 70%;
+	max-height: 70%;
+	border    : 1px solid #333333;
 }
 
 .article-inner em {
@@ -120,4 +120,11 @@ ul.item li:before {
 
 .article-inner ul {
 	font-size: 0.9em;
+}
+
+.back-link {
+	display   : block;
+	margin-top: 2em;
+	text-align: center;
+	font-size : 0.9em;
 }
