@@ -19,7 +19,6 @@ Open Terminal (or [iTerm2](https://www.iterm2.com/)), type the `$ sudo pip insta
 
 When the process finishes, install [SublimeLinter](https://packagecontrol.io/packages/SublimeLinter) and [SublimeCodeIntel](https://packagecontrol.io/packages/SublimeCodeIntel) via the Package Control by pressing `Command + Shift + P` in the Sublime Text 3. Finally, restart your Sublime Text 3 and you are all set!
 
-<br>
 **SublimeLinter**
 
 ![SublimeLinter](/images/sublimelinter.png)
