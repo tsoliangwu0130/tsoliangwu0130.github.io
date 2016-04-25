@@ -18,5 +18,8 @@ Resources
 ### Icons
 * [Font Awesome Icons](http://fortawesome.github.io/Font-Awesome/icons/)<br/>
 
+### Stylesheets Theme
+* [solarized-dark.css](https://gist.github.com/nicolashery/5765395)<br/>
+
 ### License
 * [LICENSE](https://github.com/tsoliangwu0130/tsoliangwu0130.github.io/blob/master/LICENSE.txt)<br/>

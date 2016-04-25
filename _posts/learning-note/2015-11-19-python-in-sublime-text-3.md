@@ -11,15 +11,8 @@ css: <link rel="stylesheet" href="/assets/css/learning-note.css"/>
 
 SublimeLinter 一直以來都是 Package Control 中排名中居於第一位的程式碼語法檢查器。SublimeLinter 除了可以即時幫多種語言即時偵錯，也可以有效提醒使用者一些好的編碼習慣。而 SublimeCodeIntel 則提供了相當完善的語法提示。在開發程式的過程中，SublimeCodeIntel 會在使用者輸入關鍵字時給予適當提示以減少編碼時錯誤發生的機率。這篇筆記會使用 Package Control 來進行插件安裝，若尚未安裝 Package Control 請先點擊連結安裝。
 
-{% highlight ruby linenos %}
-def show
-  puts "Outputting a very lo-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-ong lo-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-ong line"
-  @widget = Widget(params[:id])
-  respond_to do |format|
-    format.html # show.html.erb
-    format.json { render json: @widget }
-  end
-end
-{% endhighlight %}
+---
 
-Inline `code` has `back-ticks around` it.
+`$ sudo pip install flake8`
+
+![My helpful screenshot](/images/pic04.jpg)
