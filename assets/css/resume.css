@@ -38,8 +38,63 @@ table {
 		margin: 0;
 	}
 
+.inner {
+	padding: 0 2em;
+}
+
+.category {
+	color         : #fff;
+	letter-spacing: 2px;
+	font-size     : 1em;
+	font-weight   : 600;
+	padding       : 0 0.5em 0.5em 0.5em;
+	text-align    : left;
+	border-bottom : 2px solid;
+	margin-bottom : 1em;
+	margin-top    : 2em;
+}
+
+.content {
+	margin-left  : 1em;
+	margin-bottom: 1em;
+}
+
+.title-wrapper {
+	margin-bottom: 0.5em;
+}
+
+.title {
+	float      : left;
+	font-weight: bold;
+}
+
+.location {
+	float      : left;
+	font-size  : 0.8em;
+	margin-left: 4em;
+}
+
+.date {
+	float    : right;
+	font-size: 0.8em;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.edu-detail {
+	font-size    : 0.8em;
+	margin-bottom: 0;
+}
+
+.work-detail {
+	font-size    : 0.8em;
+	margin-bottom: 0;
+}
+
 /* Download Button */
 #download-button {
-	margin: 0 auto;
+	margin: 3em auto 0;
 	text-align: center;
 }
