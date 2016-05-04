@@ -63,6 +63,6 @@ You are all set!
 
 	`$ set PATH $PATH <new_path>`
 
-2. The following allow you to change shell back to the `Bash` shell just in case:
+2. The following command allows you to change shell back to the `Bash shell` just in case:
 
 	`$ chsh -s /bin/bash`
