@@ -40,7 +40,7 @@ $(function () {
 		plotOptions: {
 			bar: {
 				colorByPoint: true,
-				colors: ['#4572A7', '#AA4643', '#89A54E', '#DB843D', '#3D96AE']
+				colors: ['#DAA520', '#89A54E', '#4572A7', '#DB843D', '#AA4643']
 			},
 			series: {
 				stacking: 'normal',
