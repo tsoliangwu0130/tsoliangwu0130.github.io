@@ -36,3 +36,21 @@
 	text-justify: inter-ideograph;
 	word-wrap   : break-word; 
 }
+
+/* Responsive Layout*/
+@media screen and (max-width: 1000px) {
+	
+	.wrapper .inner #about-header img {
+		display      : inline-block;
+		margin       : 1em auto;
+		width        : 40%;
+		height       : 40%;
+		border-radius: 100%;
+		
+	}
+
+	.wrapper .inner #about-header #favorite-chart {
+		width: 100%;
+	}
+
+}
