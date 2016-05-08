@@ -6,6 +6,7 @@
 /* About Header */
 .wrapper .inner #about-header {
 	margin-bottom: 2em;
+	padding      : 2em 0;
 }
 
 
@@ -20,8 +21,8 @@
 
 
 /* Skill */
-.wrapper .inner #about-header #skill-chart {
-	float: left;
+.wrapper .inner #about-header #favorite-chart {
+	float      : left;
 	margin-left: 2em;
 }
 
