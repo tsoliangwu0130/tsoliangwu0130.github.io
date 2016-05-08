@@ -44,7 +44,7 @@ $(function () {
 			},
 			series: {
 				stacking: 'normal',
-				borderColor: '#303030'
+				borderColor: null
 			}
 		},
 		tooltip: { 
@@ -60,7 +60,7 @@ $(function () {
 			showInLegend: false, 
 			name: 'Tso-Liang',
 			color: '#EE7600',
-			data: [8.2, 1.5, 8.5, 9.2, 10],
+			data: [8.2, 1.5, 8.5, 9, 10],
 			pointWidth: 20
 		}]
 	});
