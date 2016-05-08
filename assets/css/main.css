@@ -48,6 +48,10 @@
 		-webkit-text-size-adjust: none;
 	}
 
+	.clearfix {
+		clear: both;
+	}
+	
 /* Box Model */
 
 	*, *:before, *:after {
