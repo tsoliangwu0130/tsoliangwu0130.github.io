@@ -24,6 +24,7 @@
 .wrapper .inner #about-header #favorite-chart {
 	float      : left;
 	margin-left: 2em;
+	width: 60%;
 }
 
 
