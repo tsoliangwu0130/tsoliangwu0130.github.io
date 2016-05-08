@@ -3,15 +3,28 @@
 	width: 70%;
 }
 
+/* About Header */
+.wrapper .inner #about-header {
+	margin-bottom: 2em;
+}
+
+
 /* Profile Photo */
-.wrapper .inner .image img {
+.wrapper .inner #about-header img {
+	float        : left;
 	width        : 30%;
 	height       : 30%;
-	margin       : 0 auto 2em;
 	border-radius: 5%;
 	border       : 1px solid #262626;
-	float        : left;
 }
+
+
+/* Skill */
+.wrapper .inner #about-header #skill-chart {
+	float: left;
+	margin-left: 2em;
+}
+
 
 /* Article Paragraph */
 .wrapper .inner p {
