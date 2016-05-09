@@ -44,8 +44,11 @@ $(function () {
 			},
 			series: {
 				stacking: 'normal',
-				borderColor: null
-			}
+				borderColor: null,
+				animation: {
+					duration: 2000,
+				}
+			},
 		},
 		tooltip: { 
 			enabled: false 
