@@ -28,5 +28,3 @@ Wait until the process finishes, then click the dictionaries you want to import 
 The dictionary files will be installed under `/Users/<username>/Library/Dictionaries`. However, the visibility attribution of `Library` is invisible by default. To view the files, you can type the following command to show invisible directories:
 
 `$ defaults write com.apple.finder AppleShowAllFiles TRUE;\killall Finder`
-
-$$a^2 + b^2 = c^2$$
