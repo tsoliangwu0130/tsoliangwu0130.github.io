@@ -15,7 +15,7 @@ $(function () {
 			text: null
 		},
 		xAxis: {
-			categories: ['Beer', 'Photoshop', 'Lego', 'Python', 'Mellie'],
+			categories: ['Beer', 'Photoshop', 'LEGO', 'Python', 'Mellie'],
 			title: {
 				text: null
 			},
