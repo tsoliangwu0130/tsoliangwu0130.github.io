@@ -15,7 +15,7 @@ $(function () {
 			text: null
 		},
 		xAxis: {
-			categories: ['Beer', 'Photoshop', 'LEGO', 'Python', 'Mellie'],
+			categories: ['Beer', 'Statistics', 'LEGO', 'Python', 'Mellie'],
 			title: {
 				text: null
 			},
@@ -63,7 +63,7 @@ $(function () {
 			showInLegend: false, 
 			name: 'Tso-Liang',
 			color: '#EE7600',
-			data: [8.2, 1.5, 8.5, 9, 10],
+			data: [8.2, 4.5, 7.5, 9, 10],
 			pointWidth: 20
 		}]
 	});
