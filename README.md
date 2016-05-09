@@ -24,7 +24,3 @@ Resources
 
 ### License
 * [LICENSE](https://github.com/tsoliangwu0130/tsoliangwu0130.github.io/blob/master/LICENSE.txt)<br/>
-
-```tex
-\sum_{x=0}^n f(x)
-```
