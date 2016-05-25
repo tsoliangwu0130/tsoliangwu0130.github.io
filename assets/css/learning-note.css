@@ -130,9 +130,21 @@ ul.item li:before {
 	font-size : 0.9em;
 }
 
-table th, table td {
-	padding: 0.5em;
+/* Note Table */
+table th {
+	padding  : 0.5em;
+	font-size: 1em;
 }
+
+table td {
+	padding-left: 1em;
+	font-size   : 0.8em;
+	border      : 0.5px solid gray;
+}
+
+	table td:first-child {
+		width: 35%;
+	}
 
 table tbody tr:nth-child(2n + 1) {
 	background-color: transparent;
