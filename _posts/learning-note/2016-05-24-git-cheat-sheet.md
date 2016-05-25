@@ -7,8 +7,7 @@ css: <link rel="stylesheet" href="/assets/css/learning-note.css"/>
 
 #### COMMAND / DESCRIPTION
 
-| `git add` DESCRIPTION |
-|:-:|:-------:|
-| `git add` |...|
-| `git commit` ||
-
+| Git Add          | DESCRIPTION                             |
+|:----------------:|:---------------------------------------:|
+| `git add .`      | Stage all files under current directory |
+| `git add <file>` | Stage the specific file                 |
