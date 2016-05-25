@@ -29,10 +29,11 @@ ul.nav {
 		ul.nav li a {
 			color          : white;
 			text-align     : center;
-			padding        : 14px 16px;
+			padding        : 10px 13px;
 			text-decoration: none;
 			border-bottom  : none;
 			display        : inline-block;
+			font-size      : 0.8em;
 		}
 
 		ul.nav li a:hover {
