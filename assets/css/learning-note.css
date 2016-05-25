@@ -131,15 +131,17 @@ ul.item li:before {
 }
 
 /* Note Table */
+
 table th {
 	padding  : 0.5em;
 	font-size: 1em;
 }
 
 table td {
-	padding-left: 1em;
-	font-size   : 0.8em;
-	border      : 0.5px solid gray;
+	padding-left  : 1em;
+	font-size     : 0.8em;
+	border        : 0.5px solid gray;
+	vertical-align: middle;
 }
 
 	table td:first-child {
