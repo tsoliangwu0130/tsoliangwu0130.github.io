@@ -128,3 +128,11 @@ ul.item li:before {
 	text-align: center;
 	font-size : 0.9em;
 }
+
+table th, table td{
+	padding: 0.5em;
+}
+
+table tbody tr:nth-child(2n + 1) {
+	background-color: transparent;
+}
