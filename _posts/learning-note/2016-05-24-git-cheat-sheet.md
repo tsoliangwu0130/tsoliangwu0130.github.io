@@ -63,6 +63,10 @@ css: <link rel="stylesheet" href="/assets/css/learning-note.css"/>
 | `git checkout <branch>` | Switch to \<branch\> |
 | `git checkout -b <branch>` | Create a new branch \<branch\> if not existing yet, then check out to the branch |
 
+| [git-merge](https://git-scm.com/docs/git-merge) | Description |
+|:------------------------------------------------|:------------|
+| `git merge <branch>` | Merge \<branch\> to current branch |
+
 | [git-reset](https://git-scm.com/docs/git-reset) | Description |
 |:------------------------------------------------|:------------|
 | `git reset HEAD^` | Cancel the current commit and back to the previous revision |
