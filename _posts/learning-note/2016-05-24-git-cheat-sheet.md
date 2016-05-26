@@ -71,6 +71,10 @@ css: <link rel="stylesheet" href="/assets/css/learning-note.css"/>
 |:------------------------------------------------|:------------|
 | `git reset HEAD^` | Cancel the current commit and back to the previous revision |
 
+| [git-cherry-pick](https://git-scm.com/docs/git-cherry-pick) | Description |
+|:------------------------------------------------------------|:------------|
+| `git cherry-pick <commit>` | Apply the changes introduced by some existing commits |
+
 #### Reference
 
 1. [Pro Git Book English](https://git-scm.com/book/en/v2)
