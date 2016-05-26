@@ -5,22 +5,36 @@ category: learning-note
 css: <link rel="stylesheet" href="/assets/css/learning-note.css"/>
 ---
 
-| [Git Clone](https://git-scm.com/docs/git-clone) | Description |
+| [git reference](https://git-scm.com/book/en/v2/Git-Internals-Git-References) | Description |
+|:-----------------------------------------------------------------------------|:------------|
+| `HEAD` | the latest commit just be made |
+| `HEAD^` or `HEAD~1` | the previous commit before the latest commit |
+| `HEAD~<n>` | the previous $$n$$ commit before the latest commit |
+
+| [git clone](https://git-scm.com/docs/git-clone) | Description |
 |:------------------------------------------------|:------------|
 | `git clone <url>` | Clones a repository into a newly created directory, creates remote-tracking branches for each branch in the cloned repository |
 
 | [git-remote](https://git-scm.com/docs/git-remote) | Description |
 |:--------------------------------------------------|:------------|
-| `git remote -v` | show remote url verbosely |
+| `git remote -v` | show remote urls verbosely |
 | `git remote add <remote> <url>` | Add \<remote\> for the repository at \<url\> |
 
 | [git-status](https://git-scm.com/docs/git-status) | Description |
 |:--------------------------------------------------|:------------|
 | `git status` | Show files status |
 
+| [git-log](https://git-scm.com/docs/git-log) | Description |
+|:--------------------------------------------|:------------|
+| `git log` | Show the commits log |
+
 | [git-diff](https://git-scm.com/docs/git-diff) | Description |
 |:----------------------------------------------|:------------|
 | `git diff` | Show differences between files or certain commits |
+
+| [git-init](https://git-scm.com/docs/git-init) | Description |
+|:----------------------------------------------|:------------|
+| `git init` | Create an empty Git repository under current directory|
 
 | [git-add](https://git-scm.com/docs/git-add) | Description |
 |:--------------------------------------------|:------------|
@@ -51,7 +65,7 @@ css: <link rel="stylesheet" href="/assets/css/learning-note.css"/>
 
 | [git-reset](https://git-scm.com/docs/git-reset) | Description |
 |:------------------------------------------------|:------------|
-| `git reset HEAD^` | Cancel the current commit and back to the previous version |
+| `git reset HEAD^` | Cancel the current commit and back to the previous revision |
 
 #### Reference
 
