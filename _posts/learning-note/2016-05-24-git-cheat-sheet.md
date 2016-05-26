@@ -52,6 +52,7 @@ css: <link rel="stylesheet" href="/assets/css/learning-note.css"/>
 | [git-push](https://git-scm.com/docs/git-push) | Description |
 |:----------------------------------------------|:------------|
 | `git push` | Updates remote refs using local refs |
+| `git push <remote> <branch>` | Push commits to a \<remote\> \<branch\> |
 
 | [git-branch](https://git-scm.com/docs/git-branch) | Description |
 |:--------------------------------------------------|:------------|
@@ -73,7 +74,7 @@ css: <link rel="stylesheet" href="/assets/css/learning-note.css"/>
 
 | [git-cherry-pick](https://git-scm.com/docs/git-cherry-pick) | Description |
 |:------------------------------------------------------------|:------------|
-| `git cherry-pick <commit>` | Apply the changes introduced by some existing commits |
+| `git cherry-pick <commit>` | Apply the changes from existing commits |
 
 #### Reference
 
