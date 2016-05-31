@@ -40,6 +40,10 @@ css: <link rel="stylesheet" href="/assets/css/learning-note.css"/>
 |:--------------------------------------------|:------------|
 | `git add <file>` | Stage \<file\> and be ready to commit |
 
+| [git-rm](https://git-scm.com/docs/git-rm) | Description |
+|:--------------------------------------------|:------------|
+| `git rm <file>` | Remove \<file\> from the working tree and the index |
+
 | [git-commit](https://git-scm.com/docs/git-commit) | Description |
 |:--------------------------------------------------|:------------|
 | `git commit` | Commit staged files |
