@@ -2542,31 +2542,24 @@
 		/* First Row*/
 		.spotlight:nth-child(1) {
 			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/coffee-wood-table-wooden-espresso-breakfast.jpg");
-			border-top      : 1px solid gray;
-			border-bottom   : 1px solid gray;
 		}
 			.spotlight:nth-child(1) .image {
-				border-right: 1px solid gray;	
 			}
 
 		/* Second Row*/
 		.spotlight:nth-child(2) {
 			background-image   : -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/road.jpg");
 			background-position: 50%;
-			border-bottom      : 1px solid gray;
 		}
 			.spotlight:nth-child(2) .image {
-				border-left: 1px solid gray;
 			}
 
 		/* Third Row*/
 		.spotlight:nth-child(3) {
 			background-image   : -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/textbook-calculator-small.jpg");
 			background-position: 50%;
-			border-bottom      : 1px solid gray;
 		}
 			.spotlight:nth-child(3) .image {
-				border-right: 1px solid gray;	
 			}
 
 		@media screen and (max-width: 1280px) {
