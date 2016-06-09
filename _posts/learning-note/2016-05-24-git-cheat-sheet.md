@@ -11,7 +11,7 @@ css: <link rel="stylesheet" href="/assets/css/learning-note.css"/>
 | `HEAD^` or `HEAD~1` | the previous commit before the latest commit |
 | `HEAD~<n>` | the previous $$n$$ commit before the latest commit |
 
-| [git clone](https://git-scm.com/docs/git-clone) | Description |
+| [git-clone](https://git-scm.com/docs/git-clone) | Description |
 |:------------------------------------------------|:------------|
 | `git clone <url>` | Clones a repository into a newly created directory, creates remote-tracking branches for each branch in the cloned repository |
 
