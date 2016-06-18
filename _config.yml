@@ -2,6 +2,9 @@ baseurl:
 exclude: ['README.md']
 permalink: pretty
 
+# Jekyll 3.0+
+highlighter: rouge
 markdown: kramdown
 kramdown:
+  input: GFM
   syntax_highlighter: rouge
