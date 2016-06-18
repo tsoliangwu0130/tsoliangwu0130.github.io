@@ -1,4 +1,7 @@
 baseurl: 
 exclude: ['README.md']
 permalink: pretty
-highlighter: rouge
+
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
