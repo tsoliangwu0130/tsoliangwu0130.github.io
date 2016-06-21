@@ -80,7 +80,7 @@ css: <link rel="stylesheet" href="/assets/css/learning-note.css"/>
 |:------------------------------------------------------------|:------------|
 | `git cherry-pick <commit>` | Apply the changes from existing commits |
 
-#### Reference
+#### References
 
 1. [Pro Git Book English](https://git-scm.com/book/en/v2)
 2. [Pro Git Book 繁體中文](https://git-scm.com/book/zh-tw/v1)
