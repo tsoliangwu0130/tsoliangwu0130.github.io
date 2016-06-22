@@ -13,6 +13,7 @@ Resources
 
 ### Techniques
 * [Jekyll](https://github.com/jekyll/jekyll)<br/>
+* [Rouge](https://github.com/jneen/rouge)<br/>
 * [Hyphenator](https://github.com/mnater/Hyphenator)<br/>
 * [Highcharts](http://www.highcharts.com/)<br/>
 * [MathJax](https://www.mathjax.org/)<br/> 
