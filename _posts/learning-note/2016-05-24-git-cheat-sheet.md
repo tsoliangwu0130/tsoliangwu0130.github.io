@@ -49,6 +49,12 @@ css: <link rel="stylesheet" href="/assets/css/learning-note.css"/>
 | `git commit` | Commit staged files |
 | `git commit --amend` | Modify the latest commit |
 
+| [git-stash](https://git-scm.com/docs/git-stash) | Description |
+|:--------------------------------------------------|:------------|
+| `git stash` | Saves local modifications away and reverts the working directory to match the `HEAD` commit |
+| `git stash list` | List the stashes currently have |
+| `git stash pop` | Remove a stash from the stash list and apply it on top of the current working tree state |
+
 | [git-pull](https://git-scm.com/docs/git-pull) | Description |
 |:----------------------------------------------|:------------|
 | `git pull` | Get all changes from a remote repository into the current branch <br/> *Note* : The shorthand for `git fetch` followed by `git merge FETCH_HEAD` |
