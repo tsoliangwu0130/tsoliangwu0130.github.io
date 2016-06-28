@@ -19,6 +19,7 @@ css: <link rel="stylesheet" href="/assets/css/learning-note.css"/>
 |:--------------------------------------------------|:------------|
 | `git remote -v` | show remote urls verbosely |
 | `git remote add <remote> <url>` | Add \<remote\> for the repository at \<url\> |
+| `git remote -u <upstream>` | Set up branch's upstream as \<upstream\> |
 
 | [git-status](https://git-scm.com/docs/git-status) | Description |
 |:--------------------------------------------------|:------------|
