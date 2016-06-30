@@ -75,6 +75,11 @@ css: <link rel="stylesheet" href="/assets/css/learning-note.css"/>
 | `git checkout <branch>` | Switch to \<branch\> |
 | `git checkout -b <branch>` | Create a new branch \<branch\> if not existing yet, then check out to the branch |
 
+| [git-ls-files](https://git-scm.com/docs/git-ls-files) | Description |
+|:------------------------------------------------|:------------|
+| `git ls-files` | Show information about files |
+| `git ls-files -u` | Show unmerged files in the output |
+
 | [git-merge](https://git-scm.com/docs/git-merge) | Description |
 |:------------------------------------------------|:------------|
 | `git merge <branch>` | Merge \<branch\> to current branch |
