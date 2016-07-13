@@ -32,6 +32,7 @@ css: <link rel="stylesheet" href="/assets/css/learning-note.css"/>
 | [git-diff](https://git-scm.com/docs/git-diff) | Description |
 |:----------------------------------------------|:------------|
 | `git diff` | Show differences between files or certain commits |
+| `git diff --name-only --diff-filter=U` | Show all conflicted files |
 
 | [git-init](https://git-scm.com/docs/git-init) | Description |
 |:----------------------------------------------|:------------|
