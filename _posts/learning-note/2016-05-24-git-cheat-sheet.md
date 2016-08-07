@@ -52,7 +52,7 @@ css: <link rel="stylesheet" href="/assets/css/learning-note.css"/>
 | `git commit --amend` | Modify the latest commit |
 
 | [git-stash](https://git-scm.com/docs/git-stash) | Description |
-|:--------------------------------------------------|:------------|
+|:------------------------------------------------|:------------|
 | `git stash` | Saves local modifications away and reverts the working directory to match the `HEAD` commit |
 | `git stash list` | List the stashes currently have |
 | `git stash pop` | Remove a stash from the stash list and apply it on top of the current working tree state |
@@ -77,7 +77,7 @@ css: <link rel="stylesheet" href="/assets/css/learning-note.css"/>
 | `git checkout -b <branch>` | Create a new branch \<branch\> if not existing yet, then check out to the branch |
 
 | [git-ls-files](https://git-scm.com/docs/git-ls-files) | Description |
-|:------------------------------------------------|:------------|
+|:------------------------------------------------------|:------------|
 | `git ls-files` | Show information about files |
 | `git ls-files -u` | Show unmerged files in the output |
 
@@ -92,6 +92,10 @@ css: <link rel="stylesheet" href="/assets/css/learning-note.css"/>
 | [git-cherry-pick](https://git-scm.com/docs/git-cherry-pick) | Description |
 |:------------------------------------------------------------|:------------|
 | `git cherry-pick <commit>` | Apply the changes from existing commits |
+
+| [git-rebase](https://git-scm.com/docs/git-rebase) | Description |
+|:--------------------------------------------------|:------------|
+| `git rebase -i` | Edit a list of the commits before rebasing. Can also be used to split commits. |
 
 #### References
 
