@@ -95,7 +95,7 @@ css: <link rel="stylesheet" href="/assets/css/learning-note.css"/>
 
 | [git-rebase](https://git-scm.com/docs/git-rebase) | Description |
 |:--------------------------------------------------|:------------|
-| `git rebase -i` | Edit a list of the commits before rebasing. Can also be used to split commits. |
+| `git rebase -i` | Edit a list of the commits before rebasing; Can also be used to split commits |
 
 #### References
 
