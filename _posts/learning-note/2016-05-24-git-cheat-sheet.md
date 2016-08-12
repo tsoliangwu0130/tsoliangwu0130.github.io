@@ -41,6 +41,7 @@ css: <link rel="stylesheet" href="/assets/css/learning-note.css"/>
 | [git-add](https://git-scm.com/docs/git-add) | Description |
 |:--------------------------------------------|:------------|
 | `git add <file>` | Stage \<file\> and be ready to commit |
+| `git add .` <br/> `git reset -- <file>` | Stage all files except \<file\> |
 
 | [git-rm](https://git-scm.com/docs/git-rm) | Description |
 |:--------------------------------------------|:------------|
