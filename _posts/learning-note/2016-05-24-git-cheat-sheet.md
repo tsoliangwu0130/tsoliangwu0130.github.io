@@ -98,6 +98,11 @@ css: <link rel="stylesheet" href="/assets/css/learning-note.css"/>
 |:--------------------------------------------------|:------------|
 | `git rebase -i` | Edit a list of the commits before rebasing; Can also be used to split commits |
 
+| [git-submodule](https://git-scm.com/docs/git-submodule) | Description |
+|:--------------------------------------------------------|:------------|
+| `git submodule init` | Initialize the submodules recorded in the index |
+| `git submodule update` | Update the submodules by cloning missing submodules |
+
 #### References
 
 1. [Pro Git Book English](https://git-scm.com/book/en/v2)
