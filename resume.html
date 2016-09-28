@@ -16,6 +16,29 @@ css: <link rel="stylesheet" href="/assets/css/resume.css"/>
 		<div class="inner">
 			<section>
 
+				<!-- Education -->
+				<div class="category icon fa-graduation-cap"> Education</div>
+					<!-- Oregon State University -->
+					<div class="content">					
+						<div class="title-wrapper">
+							<div class="title">Oregon State University</div>
+							<div class="date icon fa-calendar"> September 2015 - March 2017</div>
+							<div class="clearfix"></div>
+						</div>
+						<p class="edu-detail">Major: Computer Science, Master of Engineering<br/>
+						   Minor: Statistics, Master of Science</p>
+						<p class="edu-detail">Academics: 3.52 / 4.0 GPA</p>
+					</div>
+					<!-- Yuan-Ze University -->
+					<div class="content">					
+						<div class="title-wrapper">
+							<div class="title">Yuan-Ze University</div>
+							<div class="date icon fa-calendar"> September 2007 - June 2011</div>
+							<div class="clearfix"></div>
+						</div>
+						<p class="edu-detail">Major: Communication Engineering, Bachelor of Science</p>
+					</div>
+
 				<!-- Experience -->
 				<div class="category icon fa-code"> Experience</div>
 					<!-- Enterprise Computing Services -->
@@ -27,44 +50,53 @@ css: <link rel="stylesheet" href="/assets/css/resume.css"/>
 							<div class="clearfix"></div>
 						</div>
 						<ul class="work-detail">
-							<li>Design RESTful APIs and database schema and develop APIs through implementing <a href="http://www.dropwizard.io/">Dropwizard</a> with Java / Groovy</li>
-							<li>Improve web applications and APIs deployment to different OS machines through writing Ansible playbooks / roles</li>
-							<li>Build and supervise web services through utilizing Jenkins continuous integration (CI) tool</li>
-							<li>Supervise version control and test Git functions in different GitHub stages</li>
-							<li>Design UI with JavaScrip and fix bugs within web applications</li>
-							<li>Review codes and write internal documentation</li>
+							<li>Designed database schema, developed RESTful APIs with <a href="http://www.dropwizard.io/">Dropwizard</a> (Java / Groovy) framework, and implemented unit / integration testings and health checks</li>
+							<li>Improved web applications and APIs deployment to different OS machines by writing Ansible playbooks / roles</li>
+							<li>Built and supervised web services through utilizing Jenkins continuous integration (CI) tools</li>
+							<li>Designed and Implemented Django applications with MTV structure for demoing and testing APIs with OAuth 2.0</li>
+							<li>Wrote Shell script to generate/refresh SSL certificates periodically and handle SSH issues</li>
 						</ul>
 					</div>
 
 				<!-- Projects -->
 				<div class="category icon fa-file-o"> Projects</div>
-					<!-- Ansible IT Automation Deployment with Jenkins Continuous Integration -->
+					<!-- Catalog API Demo Application -->
 					<div class="content">					
 						<div class="title-wrapper">
-							<div class="title">Ansible IT Automation Deployment with Jenkins Continuous Integration</div>
-							<div class="date icon fa-calendar"> May 2016 - July 2016</div>
+							<div class="title">Catalog API Demo Application</div>
+							<div class="date icon fa-calendar"> September 2016</div>
 							<div class="clearfix"></div>
 						</div>
 						<ul class="work-detail">
-							<li>Wrote Ansible playbook to automatically configure development environment based on multiple different operating systems</li>
-							<li>Utilized Ansible to install Jenkins and periodically supervise API services and web applications</li>
-							<li>Wrote Ansible roles to monitor certain processes and ensured their performances</li>
-							<li>Standardized deployed services reversions and simplified installation processes
+							<li>Designed and Implemented a Django application with MTV (Model-Template-View) structure to communicate with three OSU courses information APIs</li>
+							<li>Designed a friendly GUI by using HTML and CSS to increase APIs testing and operation efficiency</li>
+						</ul>
+					</div>
+
+					<!-- IT Automation and Continuous Integration -->
+					<div class="content">					
+						<div class="title-wrapper">
+							<div class="title">IT Automation and Continuous Integration</div>
+							<div class="date icon fa-calendar"> July 2016</div>
+							<div class="clearfix"></div>
+						</div>
+						<ul class="work-detail">
+							<li>Wrote multiple reusable Ansible roles to install necessary services and system tools, and also deploy APIs to remote machine depends on different OS machines</li>
+							<li>Configured Jenkins pipeline jobs to run specific scripts, build Gradle / Grails / Ant applications, transfer artifacts over SSH, and sent Email / HipChat notifications when jobs ran into unexpected issues</li>
+							<li>Demoed the project and shared developing experiences with team members and stakeholders from different organizations</li>
 						</ul>
 					</div>
 					<!-- Slash Course API -->
 					<div class="content">					
 						<div class="title-wrapper">
 							<div class="title"><a href="https://github.com/osu-mist/slash-course-api/tree/develop">Slash Course API</a></div>
-							<div class="date icon fa-calendar"> April 2016 - May 2016</div>
+							<div class="date icon fa-calendar"> May 2016</div>
 							<div class="clearfix"></div>
 						</div>
 						<ul class="work-detail">
-							<li>Developed RESTful API by implementing Dropwizard and Gradle frameworks</li>
-							<li>Designed database schema and designed API specification by <a href="http://swagger.io/">Swagger</a></li>
-							<li>Exchange data with database utilizing Data Access Objects (DAOs) and mappers</li>
-							<li>Responded HTTP requests - GET (retrieve) / POST (create) / PUT (update) / DELETE (remove)
-							<li>Implemented unit testing for class methods</li>
+							<li>Developed RESTful API by designing database schema with <a href="http://swagger.io/">Swagger</a> and implementing Dropwizard / Gradle frameworks; the API is able to respond four HTTP requests: GET,  POST (create), PUT (update) and DELETE</li>
+							<li>Implemented Data Access Objects (DAOs) and mappers to exchange data with the Oracle database</li>
+							<li>Implemented class methods unit testings and health checks</li>
 						</ul>
 					</div>
 
@@ -72,16 +104,16 @@ css: <link rel="stylesheet" href="/assets/css/resume.css"/>
 				<div class="category icon fa-thumbs-o-up"> Skills</div>
 					<div class="content">					
 						<ul class="work-detail">
-							<li>Programming Languages: C/C++, Java, Groovy, Python, Swift, Haskell, Idris, Bash, Fish</li>
-							<li>Front End Web Development: HTML, CSS, JavaScript, Jekyll</li>
-							<li>RESTful APIs Development: MySQL, SQL, Oracle Database, Dropwizard, Gradle, Swagger</li>
-							<li>Markup Language: TeX, XML, JSON, YMAL, Markdown</li>
-							<li>IT Automation /  Continuous Integration (CI): Vagrant, Ansible, Jenkins</li>
+							<li>Programming Languages: C/C++, Java / Groovy, Python, Swift, Haskell, Idris, Shell, Fish</li>
+							<li>Markup Languages: HTML, CSS, TeX, XML, JSON, YMAL, Markdown</li>
+							<li>Frameworks: Django, Jekyll, Scrapy, Dropwizard, Gradle</li>
+							<li>Databases / APIs Development: Elasticsearch, Swagger, MySQL, SQL, Oracle Database</li>
+							<li>IT Automation /  Continuous Integration (CI): Vagrant, Docker, Ansible, Jenkins</li>
 							<li>Data Analysis: R, Matlab</li>
 							<li>Operating System: CentOS, Ubantu, Debian Jessie, Mac OS, Windows, iOS, Android</li>
 							<li>Game Design: Unity3D, C#</li>
-							<li>Tools and Utilities: vim, Sublime Text, IntelliJ IDEA, Xcode, Git, GitHub, JIRA, Wordpress, Django, Scrapy</li>
 							<li>Languages: English (Professional working proficiency), Mandarin Chinese (Native), Taiwanese (Native)</li>
+							<li>Tools and Utilities: vim, Sublime Text, IntelliJ IDEA, Xcode, Git, GitHub, JIRA, Slack, HipChat,Wordpress</li>
 						</ul>
 					</div>
 
@@ -96,9 +128,9 @@ css: <link rel="stylesheet" href="/assets/css/resume.css"/>
 							<div class="clearfix"></div>
 						</div>
 						<ul class="work-detail">
-							<li>Earn the opportunity of a Taiwanese movie premiere for the annual community event by cooperating with more than 30 different associations in the U.S.</li>
-							<li>Give topical speech on weekly meeting</li>
-							<li>Lead Taiwanese Student Forum and extend the organization size</li>
+							<li>Dedicated to have a Taiwanese commercial movie premiere as the club annual community event by cooperating with more than 30 different associations in the U.S.</li>
+							<li>Promoted events by building <a href="https://52hziloveyoucorvallis.github.io/">customized websites</a> and creating marketing strategies</li>
+							<li>Gave topical speeches on weekly meetings and extent the organization size</li>
 						</ul>
 					</div>
 					<!-- Taiwanese Student Association -->
@@ -114,29 +146,6 @@ css: <link rel="stylesheet" href="/assets/css/resume.css"/>
 							<li>Promoted TWSA events and Taiwanese culture via social media</li>
 							<li>Leaded <a href="https://www.youtube.com/watch?v=yz2OFdxcw_Y">Taiwanese Puppet Show in 2015 Taiwanese Night</a></li>
 						</ul>
-					</div>
-
-				<!-- Education -->
-				<div class="category icon fa-graduation-cap"> Education</div>
-					<!-- Oregon State University -->
-					<div class="content">					
-						<div class="title-wrapper">
-							<div class="title">Oregon State University</div>
-							<div class="date icon fa-calendar"> September 2015 - March 2017</div>
-							<div class="clearfix"></div>
-						</div>
-						<p class="edu-detail">Major: Computer Science, Master of Engineering<br/>
-						   Minor: Statistics, Master of Science</p>
-						<p class="edu-detail">Academics: 3.5 / 4.0 GPA</p>
-					</div>
-					<!-- Yuan-Ze University -->
-					<div class="content">					
-						<div class="title-wrapper">
-							<div class="title">Yuan-Ze University</div>
-							<div class="date icon fa-calendar"> September 2007 - June 2011</div>
-							<div class="clearfix"></div>
-						</div>
-						<p class="edu-detail">Major: Communication Engineering, Bachelor of Science</p>
 					</div>
 
 				<!-- Download -->
