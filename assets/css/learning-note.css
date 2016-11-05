@@ -45,6 +45,10 @@ ul.nav {
 	padding-top: 0;
 }
 
+.inner {
+	padding-top: 1em;
+}
+
 .inner ul li {
 	list-style-type: none;
 }
@@ -159,7 +163,7 @@ table tbody tr:nth-child(2n + 1) {
 
 /* Filter */
 #filter_wrapper {
-	width: 30%;
+	width: 40%;
 	margin: 0 auto;
 }
 
