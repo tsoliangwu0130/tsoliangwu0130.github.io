@@ -1,9 +1,5 @@
 # folders
 _site
 
-# template htmls
-elements.html
-generic.html
-
 # Mac OS X
 .DS_Store
