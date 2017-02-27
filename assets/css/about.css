@@ -39,6 +39,7 @@
 	word-wrap   : break-word; 
 }
 
+/* Responsive Layout*/
 @media screen and (max-width: 1200px) {
 
 	.wrapper .inner #about-header {
