@@ -127,6 +127,14 @@ ul.item li:before {
 	font-size: 0.9em;
 }
 
+.article-inner ul li{
+	list-style-type: disc;
+}
+
+.article-inner ol li {
+	font-size: 0.9em;
+}
+
 .back-link {
 	display   : block;
 	margin-top: 2em;
@@ -155,11 +163,6 @@ table td {
 table tbody tr:nth-child(2n + 1) {
 	background-color: transparent;
 }
-
-.article-inner ol li {
-	font-size: 0.8em;
-}
-
 
 /* Filter */
 #filter_wrapper {
