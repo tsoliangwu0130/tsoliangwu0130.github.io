@@ -18,3 +18,5 @@ Last summer, I worked on a big project which utilized two open source tools, Ans
 * Finally, good communication is the most critical skill you definitely need to have. From regular group meetings to large meetings across the departments, you will have many opportunities to demo your work or convince other people. Having a strong communication skill will absolutely help you and your team a lot.
 
 In a nutshell, developing your technical skills and soft skill are equivalently important for a professional software developer. Student or whoever is able to show the above abilities will definitely be a good software developer. Remember that opportunity favors the prepared mind. Hope all future student developers can find a great journey here!
+
+[Read the original post here](http://blogs.oregonstate.edu/developer/2017/03/15/student-professional-software-developer/)
