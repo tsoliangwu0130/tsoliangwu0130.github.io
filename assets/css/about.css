@@ -31,6 +31,18 @@
 }
 
 
+/* Title */
+
+.wrapper .inner h3 {
+	text-transform: capitalize;
+	margin-bottom: 0.2em;
+}
+
+.wrapper .inner h6 {
+	text-transform: capitalize;
+	margin-bottom: 2em;
+}
+
 /* Article Paragraph */
 .wrapper .inner p {
 	font-size   : 0.9em;
