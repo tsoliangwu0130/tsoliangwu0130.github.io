@@ -35,13 +35,13 @@
 .wrapper .inner h3 {
 	text-transform: capitalize;
 	margin-bottom: 0.2em;
-	letter-spacing: 0.15em;
+	letter-spacing: 0.1em;
 }
 
 .wrapper .inner h5 {
 	text-transform: capitalize;
 	margin-bottom: 2em;
-	letter-spacing: 0.15em;
+	letter-spacing: 0.1em;
 }
 
 /* Article Paragraph */
