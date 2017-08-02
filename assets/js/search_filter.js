@@ -9,12 +9,12 @@ $(document).ready(function() {
 			};
 		});
 
-		// $('.skill_item').each(function(index, element) {
-		// 	if ($(this).find('ul').children(':visible').length == 0) {
-		// 		$(this).hide();
-		// 	} else {
-		// 		$(this).show();
-		// 	}
-		// });
+		$('.skill_item').each(function(index, element) {
+			if ($(element).find('ul').children(':visible').length == 0) {
+				$(element).find('h5').hide();
+			} else {
+				$(element).find('h5').show();
+			}
+		});
 	});
 });
