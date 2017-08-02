@@ -8,5 +8,13 @@ $(document).ready(function() {
 				$(element).show();
 			};
 		});
+
+		$('.skill_item').each(function(index, element) {
+			if ($(this).find('ul').children(':visible').length == 0) {
+				$(this).hide();
+			} else {
+				$(this).show();
+			}
+		});
 	});
 });
