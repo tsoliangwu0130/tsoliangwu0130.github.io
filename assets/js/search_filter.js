@@ -16,5 +16,13 @@ $(document).ready(function() {
 				$(element).find('h5').show();
 			}
 		});
+
+		$('.skill_wrapper').each(function(index, element) {
+			if ($(element).find('li').children(':visible').length == 0) {
+				$(element).find('h3').hide();
+			} else {
+				$(element).find('h3').show();
+			}
+		});
 	});
 });
