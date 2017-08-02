@@ -7,14 +7,10 @@ a:hover {
 	color: orange;
 }
 
-ul {
-	margin-bottom: 1em;
-}
-
 /* Navigator */
 ul.nav {
 	list-style-type : none;
-	margin          : 0 0 2em 0;
+	margin          : 0 0 0 0;
 	padding         : 0;
 	overflow        : hidden;
 	background-color: rgba(0, 0, 0, 0.4);
@@ -57,7 +53,12 @@ ul.nav {
 h3.title {
 	margin-top    : 2em;
 	border-bottom : 1px solid;
-	padding-bottom: 0.5em; 
+	padding-bottom: 0.5em;
+}
+
+/* Skill_Item */
+.skill_item {
+	margin-bottom: 1em;
 }
 
 /* Item */
