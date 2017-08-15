@@ -1,3 +1,11 @@
+#note-content {
+	background-color: rgba(29,36,42,0.7);
+    width: 80%;
+    margin: 0 auto 0;
+    padding: 3em 2em;
+    border-radius: 15px;
+}
+
 /* Hyperlink */
 a {
 	border-bottom: 0;
@@ -35,11 +43,6 @@ ul.nav {
 		ul.nav li a:hover {
 			background-color: rgba(105, 105, 105, 0.3);
 		}
-
-/* Wrapper */
-.wrapper {
-	padding-top: 0;
-}
 
 .inner {
 	padding-top: 1em;
