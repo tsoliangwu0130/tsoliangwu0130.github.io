@@ -1,9 +1,14 @@
-#intro {
+#about {
     background-color: rgba(29,36,42,0.7);
     width: 70%;
     margin: 5em auto 3em;
     padding: 3em 2em;
     border-radius: 15px;
+}
+
+#quote {
+    margin-top: 3em;
+    width: 70%;
 }
 
 /* Inner */
