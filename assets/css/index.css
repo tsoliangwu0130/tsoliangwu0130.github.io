@@ -84,6 +84,7 @@
 	.wrapper .inner #about-header #favorite-chart {
 		float: none;
 		width: 100%;
+        margin: 0 auto;
 	}
 
 }
