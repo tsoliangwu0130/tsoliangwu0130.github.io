@@ -1,3 +1,11 @@
+#resume-content {
+	background-color: rgba(29,36,42,0.7);
+    width: 80%;
+    margin: 0 auto 0;
+    padding: 3em 3em 1em;
+    border-radius: 15px;
+}
+
 .inner {
 	padding: 0 2em;
 }
@@ -61,7 +69,7 @@
 
 /* Responsive Adjust */
 @media screen and (max-width: 736px) {
-	
+
 	.inner {
 		width  : 100%;
 		padding: 0;
@@ -71,4 +79,3 @@
 		margin-left: 1em;
 	}
 }
-
