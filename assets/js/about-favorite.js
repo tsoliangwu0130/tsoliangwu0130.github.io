@@ -50,17 +50,17 @@ $(function () {
 				}
 			},
 		},
-		tooltip: { 
-			enabled: false 
+		tooltip: {
+			enabled: false
 		},
-		exporting: { 
-			enabled: false 
+		exporting: {
+			enabled: false
 		},
 		credits: {
 			enabled: false
 		},
 		series: [{
-			showInLegend: false, 
+			showInLegend: false,
 			name: 'Tso-Liang',
 			color: '#EE7600',
 			data: [8.2, 4.5, 7.5, 9, 10],
