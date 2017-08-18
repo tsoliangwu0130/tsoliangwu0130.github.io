@@ -123,7 +123,7 @@
 }
 
 /* Responsive Layout*/
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1300px) {
 
 	.wrapper .inner #about-header {
 		height: 100%;
@@ -144,8 +144,14 @@
         margin: 0 auto;
 	}
 
+    #timesheet .scale section {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
     #timesheet {
         display: none;
     }
-
 }
