@@ -65,6 +65,27 @@
 	word-wrap   : break-word;
 }
 
+/* Timesheet */
+#timesheet {
+    width: 80%;
+    background-color: rgba(29,36,42,0);
+    margin: 3em auto 0 auto;
+    padding: 0.5em 0;
+    border-style: none;
+}
+
+#timesheet .scale section {
+    font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+#timesheet .scale section:first-of-type {
+    border: none;
+}
+
+#timesheet .data {
+    font-family: "Open Sans", Helvetica, sans-serif;
+}
+
 /* Responsive Layout*/
 @media screen and (max-width: 1200px) {
 
