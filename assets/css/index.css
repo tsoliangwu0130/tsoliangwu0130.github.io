@@ -123,7 +123,7 @@
 }
 
 /* Responsive Layout*/
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1250px) {
 
 	.wrapper .inner #about-header {
 		height: 100%;
