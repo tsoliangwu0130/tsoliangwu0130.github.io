@@ -76,6 +76,8 @@
 
 #timesheet .scale section {
     font-family: "Open Sans", Helvetica, sans-serif;
+    color: white;
+    width: 100px;
 }
 
 #timesheet .scale section:first-of-type {
@@ -84,6 +86,36 @@
 
 #timesheet .data {
     font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+#timesheet .data li {
+    margin-bottom: 1.5em;
+}
+
+#timesheet .data li .date,
+#timesheet .data li .label {
+    color: #e0e0e0;
+    font-size: 90%;
+}
+
+.timesheet .data li .bubble {
+    height: 10px;
+}
+
+#timesheet .bubble-default {
+  background-color: #f77;
+}
+#timesheet .bubble-lorem {
+  background-color: #fa7;
+}
+#timesheet .bubble-ipsum {
+  background-color: #f99;
+}
+#timesheet .bubble-dolor {
+  background-color: #ff7;
+}
+#timesheet .bubble-sit {
+  background-color: #9ff;
 }
 
 /* Responsive Layout*/
