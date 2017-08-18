@@ -68,16 +68,17 @@
 /* Timesheet */
 #timesheet {
     width: 80%;
+    height: 100%;
     background-color: rgba(29,36,42,0);
     margin: 3em auto 0 auto;
-    padding: 0.5em 0;
+    padding: 0.7em 0;
     border-style: none;
 }
 
 #timesheet .scale section {
     font-family: "Open Sans", Helvetica, sans-serif;
     color: white;
-    width: 100px;
+    width: 120px;
 }
 
 #timesheet .scale section:first-of-type {
@@ -89,7 +90,7 @@
 }
 
 #timesheet .data li {
-    margin-bottom: 1.5em;
+    margin-bottom: 1.2em;
 }
 
 #timesheet .data li .date{
@@ -105,19 +106,19 @@
 }
 
 #timesheet .bubble-default {
-  background-color: #f77;
+  background-color: #DB843D;
 }
 #timesheet .bubble-lorem {
-  background-color: #fa7;
+  background-color: #89A54E;
 }
 #timesheet .bubble-ipsum {
-  background-color: #f99;
+  background-color: #DAA520;
 }
 #timesheet .bubble-dolor {
-  background-color: #ff7;
+  background-color: #4572A7;
 }
 #timesheet .bubble-sit {
-  background-color: #9ff;
+  background-color: #AA4643;
 }
 
 /* Responsive Layout*/
