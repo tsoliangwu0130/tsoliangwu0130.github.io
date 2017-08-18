@@ -92,7 +92,9 @@
     margin-bottom: 1.5em;
 }
 
-#timesheet .data li .date,
+#timesheet .data li .date{
+    display: none;
+}
 #timesheet .data li .label {
     color: #e0e0e0;
     font-size: 90%;
