@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Vim Color Scheme
+og_type: article
 category: learning-note
 css: <link rel="stylesheet" href="/assets/css/learning-note.css"/>
 ---
@@ -26,5 +27,3 @@ set nu
 **jellybeans.vim**
 
 ![jellybeans.vim](/images/jellybeans-vim.png)
-
-

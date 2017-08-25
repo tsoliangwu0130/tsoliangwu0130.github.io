@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Pyhton in Sublime Text 3
+og_type: article
 category: learning-note
 css: <link rel="stylesheet" href="/assets/css/learning-note.css"/>
 ---
@@ -14,7 +15,7 @@ SublimeLinter 一直以來都是 Package Control 中排名中居於第一位的�
 
 #### Note
 
-Open Terminal (or [iTerm2](https://www.iterm2.com/)), type the `$ sudo pip install flake8` and enter your admin password (In order to check Python syntax, we need to install [flake8](https://pypi.python.org/pypi/flake8), which is a modular source code checker on Mac). 
+Open Terminal (or [iTerm2](https://www.iterm2.com/)), type the `$ sudo pip install flake8` and enter your admin password (In order to check Python syntax, we need to install [flake8](https://pypi.python.org/pypi/flake8), which is a modular source code checker on Mac).
 
 When the process finishes, install [SublimeLinter-pep8](https://packagecontrol.io/packages/SublimeLinter-pep8) and [SublimeCodeIntel](https://packagecontrol.io/packages/SublimeCodeIntel) via the Package Control by pressing `Command + Shift + P` in the Sublime Text 3. Finally, restart your Sublime Text 3 and you are all set!
 
@@ -28,7 +29,7 @@ When the process finishes, install [SublimeLinter-pep8](https://packagecontrol.i
 
 #### [Optional]
 
-You can customize the syntax checking rules by editing the *SublimeLinter.sublime-settings* file, which is located under `Sublime Text → Preferences → Package Settings → SublimeLinter → Settings – User`. 
+You can customize the syntax checking rules by editing the *SublimeLinter.sublime-settings* file, which is located under `Sublime Text → Preferences → Package Settings → SublimeLinter → Settings – User`.
 Add your ignore rules base on [Error and Warning Codes](http://pep8.readthedocs.org/en/latest/intro.html#error-codes). Please be aware that don't add space between comma and the rule number.
 
 For example:

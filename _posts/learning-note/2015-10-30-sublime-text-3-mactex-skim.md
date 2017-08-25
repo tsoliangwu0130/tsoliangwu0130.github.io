@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Sublime Text 3 + MacTeX + Skim
+og_type: article
 category: learning-note
 css: <link rel="stylesheet" href="/assets/css/learning-note.css"/>
 ---

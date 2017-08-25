@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Fish Shell + iTerm2 + Powerline
+og_type: article
 category: learning-note
 css: <link rel="stylesheet" href="/assets/css/learning-note.css"/>
 ---
