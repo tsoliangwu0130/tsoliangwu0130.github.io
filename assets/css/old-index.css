@@ -18,14 +18,14 @@
 }
 
 /* About Header */
-.wrapper .inner #about-header {
+#about-header {
 	margin-bottom: 2em;
 	height       : 300px;
 }
 
 
 /* Profile Photo */
-.wrapper .inner #about-header img {
+#about-header img {
 	max-height    : 300px;
 	max-width     : 300px;
 	border-radius : 5%;
@@ -38,7 +38,7 @@
 
 
 /* Skill */
-.wrapper .inner #about-header #favorite-chart {
+#favorite-chart {
 	width  : 65%;
 	display: inline-block;
 	float  : right;
@@ -102,7 +102,7 @@
     font-size: 90%;
 }
 
-.timesheet .data li .bubble {
+#timesheet .data li .bubble {
     height: 10px;
 }
 
@@ -122,25 +122,49 @@
   background-color: #AA4643;
 }
 
-/* Responsive Layout*/
-@media screen and (max-width: 1300px) {
+/* GitHubCalendar */
+.calendar {
+    margin: 2em auto 0;
+    width: 85%;
+    border-style: none;
+    /*border-top-style: solid;*/
+}
 
-	.wrapper .inner #about-header {
+.calendar h2 {
+    font-size: 1em;
+    text-transform: capitalize;
+    font-weight: 100;
+    /*text-align: left;*/
+}
+
+.calendar .contrib-footer {
+    margin-bottom: 3em;
+    overflow: hidden;
+}
+
+.calendar .contrib-number {
+    color: #fff;
+}
+
+.calendar .text-muted {
+    color: #D3D3D3;
+}
+
+/* Responsive Layout*/
+@media screen and (max-width: 1400px) {
+
+    #about-header {
 		height: 100%;
 	}
 
-	.wrapper .inner #about-header img {
-		float        : none;
-		display      : block;
-		margin       : 2em auto;
-		width        : 60%;
-		height       : 60%;
-		border-radius: 100%;
+	#about-header img {
+		width: 40%;
+		height: 40%;
 	}
 
-	.wrapper .inner #about-header #favorite-chart {
-		float: none;
-		width: 100%;
+	#favorite-chart {
+		float: right;
+		width: 60%;
         margin: 0 auto;
 	}
 
@@ -149,9 +173,32 @@
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
+
+    #about-header img {
+        float: none;
+        display: block;
+        margin: 0 auto 0.5em;
+        border-radius: 100%;
+	}
+
+    .wrapper .inner h3 {
+        text-align: center;
+    }
+
+    .wrapper .inner h5 {
+        text-align: center;
+    }
+
+    #favorite-chart {
+        display: none;
+    }
 
     #timesheet {
+        display: none;
+    }
+
+    .calendar {
         display: none;
     }
 }

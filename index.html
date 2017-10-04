@@ -18,6 +18,7 @@ js: <script src="/assets/js/about-favorite.js"></script>
 	<div class="inner">
 		<div id="about-header">
 			<img src="/images/tsoliang-profile-picture.jpg" alt="Tso-Liang's profile picture"/>
+			<!-- favorite-chart -->
 			<div id="favorite-chart"></div>
 			<div class="clearfix"></div>
 		</div>
@@ -27,6 +28,7 @@ js: <script src="/assets/js/about-favorite.js"></script>
 		<p>I received my Master's degree in Computer Science (also Minor in Statistics) from Oregon State University in 2017. Right now I'm a full-time analyst programmer at <a href="http://is.oregonstate.edu/ecs">Enterprise Computing Services</a>. As a self-motivated learner, I can work alone efficiently. However, I'm also a good communicator and a nice team member. Collaborating with diverse teams is much more fun and attractive to me.</p>
 		<p>I enjoy learning new technologies and working on my personal projects using various tools (e.g. <a href="https://www.djangoproject.com/">Django</a>, <a href="https://www.ansible.com/">Ansible</a>, etc.) in my spare time. Currently, I am obsessed with enhancing my DevOps skills and Full Stack development, but I am always open to all new things. Besides coding, I also love cooking, drinking beer, and creating some fun stuff with LEGO bricks.</p>
 
+		<!-- timesheet -->
 		<div id="timesheet"></div>
 		<script type="text/javascript">
 			// see color definition in index.css
@@ -38,10 +40,11 @@ js: <script src="/assets/js/about-favorite.js"></script>
 			];
 		    new Timesheet("timesheet", 2015, 2021, data);
 	  	</script>
+		<div class="clearfix"></div>
 
-		<div id="quote">
-			<h4>Steve Jobs</h4>
-			<blockquote>Everybody in this country should learn to program a computer... because it teaches you how to think.</blockquote>
-		</div>
+		<!-- github calendar -->
+		<div class="calendar"></div>
+		<script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
+		<script>GitHubCalendar(".calendar", "tsoliangwu0130");</script>
 	</div>
 </section>
