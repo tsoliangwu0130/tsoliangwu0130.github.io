@@ -41,7 +41,8 @@
 #favorite-chart {
 	width  : 65%;
 	display: inline-block;
-	float  : right;
+    margin-left: 1em;
+	float  : left;
 }
 
 /* Title */
@@ -163,9 +164,9 @@
 	}
 
 	#favorite-chart {
-		float: right;
+		float: left;
+        margin-left: 1em;
 		width: 60%;
-        margin: 0 auto;
 	}
 
     #timesheet .scale section {
