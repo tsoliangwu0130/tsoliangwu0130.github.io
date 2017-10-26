@@ -1,12 +1,36 @@
-.section-story-overview .profile-title {
+.section-story-overview .title {
   text-align: center;
-  margin-bottom: 1em; }
-  .section-story-overview .profile-title img {
+  margin-bottom: 1.5em; }
+  .section-story-overview .title img {
     width: 50%;
     margin-bottom: 15px; }
-  .section-story-overview .profile-title h3 {
+  .section-story-overview .title h3 {
     margin-bottom: 2px; }
 .section-story-overview .favorite-container .progress {
   height: 2px; }
+
+.timeline i {
+  margin-right: 0.5em; }
+.timeline .title {
+  margin-bottom: 2px; }
+.timeline .info {
+  font-style: normal;
+  font-size: 0.9em;
+  color: #8c8c8c; }
+.timeline li .timeline-badge {
+  transform: scale(0.3, 0.3); }
+.timeline li .timeline-heading {
+  margin-bottom: 0.7em; }
+  .timeline li .timeline-heading h5 {
+    margin-bottom: 2px; }
+.timeline li .timeline-body .list-group {
+  margin-bottom: 1.5em; }
+  .timeline li .timeline-body .list-group .title {
+    font-size: 1.1em; }
+  .timeline li .timeline-body .list-group ul {
+    font-size: 0.9em;
+    list-style-type: disc;
+    margin-top: 0.4em;
+    padding-left: 1.7em; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,23 +1,59 @@
 .section-story-overview {
 
-    .profile-title {
+    .title {
         text-align: center;
-        margin-bottom: 1em;
-
+        margin-bottom: 1.5em;
         img {
             width: 50%;
             margin-bottom: 15px;
         }
-
         h3 {
             margin-bottom: 2px;
         }
     }
 
     .favorite-container {
-
         .progress {
             height: 2px;
+        }
+    }
+}
+
+.timeline {
+    i {
+        margin-right: 0.5em;
+    }
+    .title {
+        margin-bottom: 2px;
+    }
+    .info {
+        font-style: normal;
+        font-size: 0.9em;
+        color: rgb(140, 140, 140);
+    }
+    li {
+        .timeline-badge {
+            transform: scale(0.3, 0.3);
+        }
+        .timeline-heading {
+            margin-bottom: 0.7em;
+            h5 {
+                margin-bottom: 2px;
+            }
+        }
+        .timeline-body {
+            .list-group {
+                margin-bottom: 1.5em;
+                .title {
+                    font-size: 1.1em;
+                }
+                ul{
+                    font-size: 0.9em;
+                    list-style-type: disc;
+                    margin-top: 0.4em;
+                    padding-left: 1.7em;
+                }
+            }
         }
     }
 }
