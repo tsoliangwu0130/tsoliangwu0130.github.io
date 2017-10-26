@@ -1,7 +1,5 @@
 .section-story-overview .favorite-container {
-  width: 90%;
-  margin-top: 320px;
-  margin-bottom: 40px; }
+  margin-top: 2.5em; }
   .section-story-overview .favorite-container .progress {
     height: 2px; }
 
