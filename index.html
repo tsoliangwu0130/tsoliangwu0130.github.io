@@ -77,22 +77,24 @@ template_style: landing-page
         </div>
     </div>
 
-    <div class="container">
-        <div id="resume" class="section-story-overview">
+    <!-- Resume -->
+    <div class="container" id="resume">
+        <div class="section-story-overview">
             <div class="row justify-content-md-center">
                 <div class="col-md-5 title">
                     <h3>Resume</h3>
-                    <p><strong>My experience and education</strong></p>
+                    <p><strong>My Experience, Projects and Skills</strong></p>
                 </div>
             </div>
         </div>
+        <!-- Experience -->
         <ul class="timeline">
             <!-- YZU CN undergrad student -->
             <li>
                 <div class="timeline-badge"></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
-                        <h5 class="timeline-title">YZU CN undergrad student</h5>
+                        <h5 class="timeline-title">YZU CN Undergrad Student</h5>
                         <div class="info"><i class="fa fa-fw fa-graduation-cap"></i>Yuan-Ze University</div>
                         <div class="info"><i class="fa fa-fw fa-clock-o"></i>September 2007 - June 2011</div>
                     </div>
@@ -106,7 +108,7 @@ template_style: landing-page
                 <div class="timeline-badge"></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
-                        <h5 class="timeline-title">OSU CS grad student</h5>
+                        <h5 class="timeline-title">OSU CS Grad Student</h5>
                         <div class="info"><i class="fa fa-fw fa-graduation-cap"></i>Oregon State University</div>
                         <div class="info"><i class="fa fa-fw fa-clock-o"></i>September 2015 - March 2017</div>
                     </div>
@@ -170,5 +172,76 @@ template_style: landing-page
                 </div>
             </li>
         </ul>
+        <!-- Portfolio -->
+        <div id="portfolio">
+            <div class="section-story-overview">
+                <div class="row justify-content-md-center">
+                    <div class="col-md-5 title">
+                        <h3>Portfolio</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <!-- Portfolio Nav -->
+                <div class="nav-align-center">
+                    <ul class="nav" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#profile" role="tablist">RESTful API</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#home" role="tablist">Web Design</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#messages" role="tablist">DevOps</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Tab panes -->
+                <div class="tab-content gallery">
+                    <div class="tab-pane active" id="home" role="tabpanel">
+                        <div class="col-md-10 ml-auto mr-auto">
+                            <div class="row collections">
+                                <div class="col-md-6">
+                                    <img src="../assets/vendor/now-ui-kit/img/bg1.jpg" alt="" class="img-raised">
+                                    <img src="../assets/vendor/now-ui-kit/img/bg3.jpg" alt="" class="img-raised">
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="../assets/vendor/now-ui-kit/img/bg8.jpg" alt="" class="img-raised">
+                                    <img src="../assets/vendor/now-ui-kit/img/bg7.jpg" alt="" class="img-raised">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="profile" role="tabpanel">
+                        <div class="col-md-10 ml-auto mr-auto">
+                            <div class="row collections">
+                                <div class="col-md-6">
+                                    <img src="../assets/vendor/now-ui-kit/img/bg6.jpg" class="img-raised">
+                                    <img src="../assets/vendor/now-ui-kit/img/bg11.jpg" alt="" class="img-raised">
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="../assets/vendor/now-ui-kit/img/bg7.jpg" alt="" class="img-raised">
+                                    <img src="../assets/vendor/now-ui-kit/img/bg8.jpg" alt="" class="img-raised">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="messages" role="tabpanel">
+                        <div class="col-md-10 ml-auto mr-auto">
+                            <div class="row collections">
+                                <div class="col-md-6">
+                                    <img src="../assets/vendor/now-ui-kit/img/bg3.jpg" alt="" class="img-raised">
+                                    <img src="../assets/vendor/now-ui-kit/img/bg8.jpg" alt="" class="img-raised">
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="../assets/vendor/now-ui-kit/img/bg7.jpg" alt="" class="img-raised">
+                                    <img src="../assets/vendor/now-ui-kit/img/bg6.jpg" class="img-raised">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>

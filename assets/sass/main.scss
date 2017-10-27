@@ -1,5 +1,5 @@
 .section-story-overview {
-
+    padding: 4em 0 1em 0;
     .title {
         text-align: center;
         margin-bottom: 1.5em;
@@ -11,7 +11,9 @@
             margin-bottom: 2px;
         }
     }
+}
 
+#about {
     .favorite-container {
         .progress {
             height: 2px;
@@ -36,7 +38,7 @@
             transform: scale(0.3, 0.3);
         }
         .timeline-heading {
-            margin-bottom: 0.7em;
+            margin-bottom: 0.6em;
             h5 {
                 margin-bottom: 2px;
             }
@@ -52,6 +54,36 @@
                     list-style-type: disc;
                     margin-top: 0.4em;
                     padding-left: 1.7em;
+                }
+            }
+        }
+    }
+}
+
+#portfolio {
+    .section-story-overview {
+        padding-bottom: 0;
+    }
+    .img-raised {
+        margin-top: 2em;
+    }
+    .nav-align-center {
+        .nav {
+            .nav-item {
+                margin-left: 1.5em;
+                .nav-link {
+                    padding-left: 0;
+                    padding-right: 0;
+                    color: rgb(140, 140, 140);
+                    &:hover {
+                        border-bottom: 1px solid rgb(140, 140, 140);
+                        padding-bottom: 3px;
+                    }
+                    &:active, &:focus {
+                        color: #f96332;
+                        border-bottom: 1px solid #f96332;
+                        padding-bottom: 3px;
+                    }
                 }
             }
         }
