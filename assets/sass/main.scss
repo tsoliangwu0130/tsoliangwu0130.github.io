@@ -136,3 +136,33 @@
         }
     }
 }
+
+#skill {
+    table {
+        margin-top: 2em;
+        thead {
+            background-color: rgb(200, 200, 200);
+            tr {
+                height: 2em;
+                th {
+                    padding: 1.3em;
+                }
+            }
+        }
+        tbody {
+            tr {
+                border-bottom: 1px solid rgb(200, 200, 200);
+                th {
+                }
+                td {
+                    padding: 0.5em 0;
+                    vertical-align: text-top;
+                    ul {
+                        margin: 0;
+                        padding-left: 2.2em;
+                    }
+                }
+            }
+        }
+    }
+}
