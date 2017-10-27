@@ -38,20 +38,50 @@
 
 #portfolio .section-story-overview {
   padding-bottom: 0; }
-#portfolio .img-raised {
-  margin-top: 2em; }
-#portfolio .nav-align-center .nav .nav-item {
-  margin-left: 1.5em; }
-  #portfolio .nav-align-center .nav .nav-item .nav-link {
-    padding-left: 0;
-    padding-right: 0;
-    color: #8c8c8c; }
-    #portfolio .nav-align-center .nav .nav-item .nav-link:hover {
-      border-bottom: 1px solid #8c8c8c;
-      padding-bottom: 3px; }
-    #portfolio .nav-align-center .nav .nav-item .nav-link:active, #portfolio .nav-align-center .nav .nav-item .nav-link:focus {
-      color: #f96332;
-      border-bottom: 1px solid #f96332;
-      padding-bottom: 3px; }
+#portfolio .nav-align-center {
+  margin-bottom: 2em; }
+  #portfolio .nav-align-center .nav .nav-item {
+    margin-left: 1.5em; }
+    #portfolio .nav-align-center .nav .nav-item .nav-link {
+      padding-left: 0;
+      padding-right: 0;
+      color: #8c8c8c;
+      padding-bottom: 2px;
+      border-bottom: 1px solid rgba(140, 140, 140, 0); }
+      #portfolio .nav-align-center .nav .nav-item .nav-link:hover {
+        border-bottom: 1px solid #8c8c8c; }
+      #portfolio .nav-align-center .nav .nav-item .nav-link:active, #portfolio .nav-align-center .nav .nav-item .nav-link:focus {
+        color: #f96332;
+        border-bottom: 1px solid #f96332; }
+#portfolio .gap {
+  height: 2.2em; }
+#portfolio .img-container {
+  position: relative; }
+  #portfolio .img-container .img-raised {
+    display: block;
+    width: 100%;
+    height: auto; }
+  #portfolio .img-container .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(95, 95, 95, 0.8);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease; }
+    #portfolio .img-container .overlay .text {
+      color: white;
+      position: absolute;
+      overflow: hidden;
+      top: 15%;
+      left: 5%; }
+      #portfolio .img-container .overlay .text h6 {
+        margin-bottom: 1em; }
+        #portfolio .img-container .overlay .text h6 i {
+          margin-right: 0.5em; }
+  #portfolio .img-container:hover .overlay {
+    height: 55%; }
 
 /*# sourceMappingURL=main.css.map */
