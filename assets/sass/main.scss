@@ -97,7 +97,8 @@
                     padding-bottom: 2px;
                     border-bottom: 1px solid rgba(140, 140, 140, 0);
                     &:hover {
-                        border-bottom: 1px solid $default-light-color;
+                        color: #2A71C3;
+                        border-bottom: 1px solid #2A71C3;
                     }
                     &:active, &:focus {
                         color: #f96332;
@@ -149,20 +150,24 @@
 
 #skill {
     table {
-        thead.bg-red {
-            background-color: rgba(#d25151, 0.7);
+        thead.red {
+            border-top: 1px solid #d25151;
+            border-bottom: 1px solid #d25151;
         }
-        thead.bg-orange {
-            background-color: rgba(#f7a024, 0.7);
+        thead.orange {
+            border-top: 1px solid #f7a024;
+            border-bottom: 1px solid #f7a024;
         }
-        thead.bg-green {
-            background-color: rgba(#5bbe59, 0.7);
+        thead.green {
+            border-top: 1px solid #5bbe59;
+            border-bottom: 1px solid #5bbe59;
         }
         thead {
             tr {
                 height: 2em;
                 th {
-                    padding: 1.3em;
+                    padding: 1em;
+                    font-size: 1.1em;
                 }
             }
         }
@@ -170,10 +175,11 @@
             tr {
                 border-bottom: 1px solid rgb(200, 200, 200);
                 th {
+                    font-size: 1.1em;
                     padding-left: 1.2em;
                 }
                 td {
-                    padding: 0.5em 0;
+                    padding: 1em 0;
                     vertical-align: text-top;
                     ul {
                         margin: 0;
