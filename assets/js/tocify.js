@@ -2,7 +2,8 @@
 $(document).ready(function(){
     $("#toc").tocify({
         selectors: "h2, h3",
-        scrollTo: 60
+        scrollTo: 75,
+        extendPage: false
     });
 });
 
