@@ -1,6 +1,15 @@
 @import 'components/mousewheel';
 @import 'partials/variables';
 
+.anchor {
+    &:before {
+        content: "";
+        display: block;
+        height: 25px;
+        margin-top: -25px;
+    }
+}
+
 .page-header {
     .more {
         position: absolute;
@@ -23,6 +32,10 @@
             margin-bottom: 2px;
         }
     }
+}
+
+.sub-row {
+    padding-top: 5em;
 }
 
 #about {
@@ -195,19 +208,14 @@
 }
 
 #note {
-    .container-fluid {
+    .container {
         position: relative;
-        [class*="span"] {
-            float: left;
-            min-height: 30px;
-        }
-        .span3 {
-            width: 25%;
-        }
-        .span9 {
-            width: 75%;
+        .tocify {
+            width: inherit;
+            margin-left: 0;
         }
         #toc {
+            border: none;
             position: absolute;
             ul, li {
                 width: 100%;
