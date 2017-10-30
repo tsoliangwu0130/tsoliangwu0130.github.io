@@ -213,6 +213,16 @@
         .tocify {
             width: inherit;
             margin-left: 0;
+            .tocify-header {
+                li {
+                    font-weight: bold;
+                }
+                .tocify-subheader {
+                    li {
+                        font-weight: normal;
+                    }
+                }
+            }
         }
         .col-md-3 {
             margin-top: 10px;
