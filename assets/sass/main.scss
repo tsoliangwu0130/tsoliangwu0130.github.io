@@ -214,14 +214,32 @@
             width: inherit;
             margin-left: 0;
         }
-        #toc {
-            border: none;
-            position: absolute;
-            ul, li {
-                width: 100%;
+        .col-md-3 {
+            #toc {
+                border: none;
+                position: absolute;
+                ul, li {
+                    width: 100%;
+                }
+                .active {
+                    color: #EE8E6E;
+                }
             }
-            .active {
-                color: orange;
+        }
+        .col-md-9 {
+            h2 {
+                margin-bottom: 1.5em;
+                font-size: 1.8em;
+            }
+            h3 {
+                margin: -0.7em 0 0 0;
+                font-size: 1.4em;
+            }
+            ul {
+                margin: 0.4em 0 2em 0;
+            }
+            li {
+                font-size: 1.1em;
             }
         }
     }
