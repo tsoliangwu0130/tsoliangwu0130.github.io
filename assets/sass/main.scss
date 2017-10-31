@@ -10,6 +10,14 @@
     }
 }
 
+#navigation {
+    &:before {
+        @media screen and (max-width: 991px) {
+            background: linear-gradient(#18265d 0%, #000000 80%);
+        }
+    }
+}
+
 .page-header {
     .more {
         position: absolute;
