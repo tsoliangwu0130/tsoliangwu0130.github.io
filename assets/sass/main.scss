@@ -270,3 +270,31 @@
         }
     }
 }
+
+.footer {
+    .contact {
+        ul {
+            @media screen and (max-width: 765px) {
+                text-align: center;
+                width: 50%;
+                margin: 0 auto;
+            }
+        }
+        li {
+            a {
+                padding: 0 1.7em 0 0;
+                font-size: 1em;
+                &:hover {
+                    color: #EE8E6E;
+                }
+            }
+        }
+    }
+    .copyright {
+        margin-top: 1em;
+        text-align: right;
+        @media screen and (max-width: 765px) {
+            text-align: center;
+        }
+    }
+}
