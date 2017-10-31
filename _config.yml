@@ -1,5 +1,5 @@
 baseurl:
-exclude: ['README.md']
+exclude: ['README.md', 'config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
 permalink: pretty
 
 # Jekyll 3.0+
