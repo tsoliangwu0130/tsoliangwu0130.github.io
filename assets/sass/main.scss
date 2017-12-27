@@ -171,18 +171,9 @@
 
 #skill {
     table {
-        thead.red {
-            border-top: 1px solid #d25151;
-            border-bottom: 1px solid #d25151;
-        }
-        thead.orange {
-            border-top: 1px solid #f7a024;
-            border-bottom: 1px solid #f7a024;
-        }
-        thead.green {
-            border-top: 1px solid #5bbe59;
-            border-bottom: 1px solid #5bbe59;
-        }
+        border-collapse: separate;
+        margin-bottom: 1.5em;
+        border-radius: 7px;
         thead {
             tr {
                 height: 2em;
@@ -194,7 +185,7 @@
         }
         tbody {
             tr {
-                border-bottom: 1px solid rgb(200, 200, 200);
+                // border-bottom: 1px solid rgb(200, 200, 200);
                 th {
                     font-size: 1.1em;
                     padding-left: 1.2em;
@@ -208,10 +199,16 @@
                     }
                 }
             }
-            tr.tr-final {
-                border-bottom: none;
-            }
         }
+    }
+    table.red {
+        border: 1px solid #d25151;
+    }
+    table.orange {
+        border: 1px solid #f7a024;
+    }
+    table.green {
+        border: 1px solid #5bbe59;
     }
 }
 
