@@ -201,6 +201,13 @@
             }
         }
     }
+    table.table {
+        thead {
+            th {
+                border-top: none;
+            }
+        }
+    }
     table.red {
         border: 1px solid #d25151;
     }
