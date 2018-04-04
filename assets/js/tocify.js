@@ -1,18 +1,18 @@
 // See tocify documentation here: http://gregfranko.com/jquery.tocify.js
 $(document).ready(function(){
-    $("#toc").tocify({
-        selectors: "h2, h3",
-        scrollTo: 70,
-        extendPage: false
-    });
+  $("#toc").tocify({
+    selectors: "h2, h3",
+    scrollTo: 70,
+    extendPage: false
+  });
 });
 
 // Adjust and fix toc position
 $(document).scroll(function(e) {
-    if($(this).scrollTop() > $("#header").height()) {
-        $("#toc").css({"position": "fixed", "top": "10%"});
-    }
-    else {
-        $("#toc").css({"position": "absolute", "top": "0"});
-    }
+  if($(this).scrollTop() > $("#header").height()) {
+    $("#toc").css({"position": "fixed", "top": "10%"});
+  }
+  else {
+    $("#toc").css({"position": "absolute", "top": "0"});
+  }
 });
