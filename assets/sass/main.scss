@@ -107,7 +107,7 @@
     padding-bottom: 0;
   }
   .nav-align-center {
-    margin-bottom: 2em;
+    margin: 0 auto 2em;
     .nav {
       .nav-item {
         margin-left: 1.5em;
@@ -170,6 +170,9 @@
 }
 
 #skill {
+  @media screen and (max-width: 765px) {
+    display: none;
+  }
   table {
     border-collapse: separate;
     margin-bottom: 1.5em;
