@@ -1,10 +1,37 @@
-baseurl:
-exclude: ['README.md']
-permalink: pretty
+title: Tso-Liang Wu (tsoliang)
+description: Tso-Liang Wu(tsoliang)'s personal website. All about the Computer Science, DevOps and Full Stack learning note.
+author: https://tsoliangwu.com
+logo: /assets/img/tsoliang.jpg
+image: /assets/img/tsoliang.jpg
 
-# Jekyll 3.0+
+baseurl:
+url: https://tsoliangwu.com
+
+facebook:
+  publisher: https://www.facebook.com/tsoliangwu0130
+
+twitter:
+  card: summary
+
+social:
+  name: Tso-Liang Wu (tsoliang)
+  links:
+    - https://www.facebook.com/tsoliangwu0130
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/tsoliang.jpg
+
 highlighter: rouge
 markdown: kramdown
 kramdown:
   input: GFM
-  syntax_highlighter: rouge
+syntax_highlighter: rouge
+exclude: ['README.md']
+permalink: pretty
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
