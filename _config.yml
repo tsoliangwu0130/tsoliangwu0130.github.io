@@ -20,7 +20,7 @@ social:
 
 defaults:
   - scope:
-      path: ""
+      path: ''
     values:
       image: /assets/img/tsoliang.jpg
 
