@@ -1,5 +1,8 @@
-@import 'components/mousewheel';
-@import 'partials/variables';
+---
+---
+
+@import 'mousewheel';
+@import 'variables';
 
 .anchor {
   &:before {
@@ -23,7 +26,7 @@
     position: absolute;
     bottom: 15%;
     width: 20%;
-    left: 40%;
+    left: 30%;
   }
 }
 
